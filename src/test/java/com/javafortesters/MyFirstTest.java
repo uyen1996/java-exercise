@@ -1,5 +1,7 @@
 package com.javafortesters;
+import org.junit.Assert;
 import org.junit.Test;
+import org.junit.runner.Result;
 
 
 import static java.lang.Integer.toHexString;
@@ -22,5 +24,11 @@ public class MyFirstTest {
     public void canAddTwoMultipleTwo() {
         int answer = 2 * 2;
         assertEquals("2*2 = 4", 4, answer);
+    }
+
+    @Test
+    public void someStringMethods() {
+        String aString = "abcdef";
+        assertEquals(6, aString.length());
     }
 }
