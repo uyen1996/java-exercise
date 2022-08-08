@@ -3,7 +3,7 @@ import java.util.Scanner;
 public class ElectricityBill {
     public static void main(String[] args) {
         Scanner kb = new Scanner(System.in);
-        System.out.print(" Please Enter the Units that you Consumed  : ");
+        System.out.print(" Please ennter the units  : ");
         int units;
         int total_amount;
         units = kb.nextInt();
