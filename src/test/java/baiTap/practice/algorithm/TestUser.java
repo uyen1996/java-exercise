@@ -1,7 +1,7 @@
-package com.javafortesters;
+package baiTap.practice.algorithm;
 import com.javafortesters.User;
-import org.junit.Test;
-import static org.junit.Assert.assertEquals;
+import org.testng.annotations.Test;
+
 public class TestUser {
     @Test
     public void canSetPassword(){
@@ -23,6 +23,23 @@ public class TestUser {
 //        System.out.println("User : "
 //                + User[0]);
 
+    }
+
+    @Test
+    public void triangle(){
+        int rows = 10;
+
+        for (int i = 1; i <= rows; i++)
+        {
+            int number = i;
+
+            for (int j = 1; j <= i; j++)
+            {
+                System.out.print(j + " ");
+                number += (rows - j);
+            }
+            System.out.println();
+        }
     }
 
 }
