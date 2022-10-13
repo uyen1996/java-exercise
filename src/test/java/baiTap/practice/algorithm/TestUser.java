@@ -1,5 +1,5 @@
 package baiTap.practice.algorithm;
-import com.javafortesters.User;
+import com.javafortesters.example.chapter12.User;
 import org.testng.annotations.Test;
 
 public class TestUser {

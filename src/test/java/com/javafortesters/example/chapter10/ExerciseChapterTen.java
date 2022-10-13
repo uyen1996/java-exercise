@@ -1,12 +1,10 @@
 package com.javafortesters.example.chapter10;
 
-import com.javafortesters.User;
+import com.javafortesters.example.chapter12.User;
 import org.apache.commons.collections4.MultiValuedMap;
 import org.apache.commons.collections4.multimap.ArrayListValuedHashMap;
 import org.junit.Test;
-import org.testng.collections.MultiMap;
 
-import java.sql.Wrapper;
 import java.util.*;
 
 
@@ -19,8 +17,7 @@ public class ExerciseChapterTen {
 
     @Test
     public void collectionOfUsers() {
-        Collection firstcollection;
-        firstcollection = new ArrayList();
+        Collection firstcollection = new ArrayList();
         assertEquals(0, firstcollection.size());
         assertTrue(firstcollection.isEmpty());
         firstcollection.add("user1");
@@ -39,6 +36,7 @@ public class ExerciseChapterTen {
         assertTrue(secondcollection.isEmpty());
         firstcollection.clear();
         assertTrue(firstcollection.isEmpty());
+
     }
 
 
@@ -49,17 +47,17 @@ public class ExerciseChapterTen {
         List<String> user2 = new ArrayList<String>();
         user1.add("A");
         user2.add("B");
-        userList.addAll(0 , user1);
-        userList.addAll(0 , user2);
-        assertEquals("B",userList.get(0));
-        assertEquals("A",userList.get(1));
+        userList.addAll(0, user1);
+        userList.addAll(0, user2);
+        assertEquals("B", userList.get(0));
+        assertEquals("A", userList.get(1));
     }
 
     @Test
     public void setOfUsers() {
         Scanner kb = new Scanner(System.in);
         Set users = new HashSet();
-        for (int i = 1; i <= 10; i++){
+        for (int i = 1; i <= 10; i++) {
             users.add("Emily");
             System.out.println(users);
         }
@@ -79,11 +77,11 @@ public class ExerciseChapterTen {
         User user2 = new User();
         System.out.println(user2.setUsername("Emily"));
         map.put("key1", user1);
-        map.put("key1", user2);
+        map.put("key2", user2);
         assertEquals(2, map.size());
     }
 
-    }
+}
 
 
 

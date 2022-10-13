@@ -1,8 +1,8 @@
-package com.javafortesters;
+package com.javafortesters.example.chapter12;
 
 public class User {
-    private String username;
-    private String password;
+    protected String username;
+    protected String password;
 
     public String getUsername() {
         return username;
@@ -30,6 +30,9 @@ public class User {
     public User(String username, String password) {
         this.username = username;
         this.password = password;
+    }
+    public String getPermission(){
+        return "Elevated";
     }
 
 }

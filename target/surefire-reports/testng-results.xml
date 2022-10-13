@@ -2,20 +2,20 @@
 <testng-results ignored="0" total="3" passed="3" failed="0" skipped="0">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2022-09-04T17:13:03 ICT" name="Command line suite" finished-at="2022-09-04T17:13:03 ICT" duration-ms="50">
+  <suite started-at="2022-10-13T18:00:50 ICT" name="Command line suite" finished-at="2022-10-13T18:00:50 ICT" duration-ms="47">
     <groups>
     </groups>
-    <test started-at="2022-09-04T17:13:03 ICT" name="Command line test" finished-at="2022-09-04T17:13:03 ICT" duration-ms="50">
+    <test started-at="2022-10-13T18:00:50 ICT" name="Command line test" finished-at="2022-10-13T18:00:50 ICT" duration-ms="47">
       <class name="baiTap.practice.algorithm.TestUser">
-        <test-method signature="canSetPassword()[pri:0, instance:baiTap.practice.algorithm.TestUser@782663d3]" started-at="2022-09-04T17:13:03 ICT" name="canSetPassword" finished-at="2022-09-04T17:13:03 ICT" duration-ms="5" status="PASS">
+        <test-method signature="canSetPassword()[pri:0, instance:baiTap.practice.algorithm.TestUser@782663d3]" started-at="2022-10-13T18:00:50 ICT" name="canSetPassword" finished-at="2022-10-13T18:00:50 ICT" duration-ms="4" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- canSetPassword -->
-        <test-method signature="createUser()[pri:0, instance:baiTap.practice.algorithm.TestUser@782663d3]" started-at="2022-09-04T17:13:03 ICT" name="createUser" finished-at="2022-09-04T17:13:03 ICT" duration-ms="6" status="PASS">
+        <test-method signature="createUser()[pri:0, instance:baiTap.practice.algorithm.TestUser@782663d3]" started-at="2022-10-13T18:00:50 ICT" name="createUser" finished-at="2022-10-13T18:00:50 ICT" duration-ms="6" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- createUser -->
-        <test-method signature="triangle()[pri:0, instance:baiTap.practice.algorithm.TestUser@782663d3]" started-at="2022-09-04T17:13:03 ICT" name="triangle" finished-at="2022-09-04T17:13:03 ICT" duration-ms="9" status="PASS">
+        <test-method signature="triangle()[pri:0, instance:baiTap.practice.algorithm.TestUser@782663d3]" started-at="2022-10-13T18:00:50 ICT" name="triangle" finished-at="2022-10-13T18:00:50 ICT" duration-ms="6" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- triangle -->
