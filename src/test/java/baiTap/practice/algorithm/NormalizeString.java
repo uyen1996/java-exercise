@@ -1,4 +1,5 @@
 package baiTap.practice.algorithm;
+import java.io.DataInputStream;
 import java.util.StringTokenizer;
 import java.util.Scanner;
 
@@ -20,9 +21,10 @@ public class NormalizeString {
     }
     public static void main(String[] args) {
         Scanner kb = new Scanner(System.in);
-        System.out.println("Insert String: ");
-        String strInput= kb.nextLine();
-
+        System.out.println("Input String: ");
+        String strInput ;
+        strInput = kb.nextLine();
         System.out.println("Output String: " + nomalize(strInput));
+        }
     }
-}
+
