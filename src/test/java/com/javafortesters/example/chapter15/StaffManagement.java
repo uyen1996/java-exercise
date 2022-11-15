@@ -26,7 +26,6 @@
 //            System.out.println("Staff " + (i + 1) + " is:");
 //            staff = new Profile();
 //            staff.inputInfoMember();
-//            // Them sv vao danh sach
 //            addStaff(staff);
 //        }
 //    }
